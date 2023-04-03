@@ -10,12 +10,16 @@ module.exports = {
   },
   plugins: [
     "vue",
+    "prettier",
   ],
   extends: [
     "eslint:recommended",
     "plugin:vue/vue3-recommended",
+    "prettier",
   ],
   rules: {
+    "prettier/prettier":
+      "warn",
     "no-unused-vars":
       "warn",
   },
