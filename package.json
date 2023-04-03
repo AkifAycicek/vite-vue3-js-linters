@@ -7,12 +7,18 @@
     "build": "vite build",
     "preserve": "vite build",
     "serve": "vite preview --port 6134",
+    "lint": "eslint --fix  ./**/*.{vue,js,jsx}",
   },
   "dependencies": {
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "@volar/vue-typescript": "^1.2.0",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.10.0",
+    "typescript": "^5.0.3",
     "vite": "^4.2.0",
+    "vite-plugin-eslint": "^1.8.1"
   }
 }
