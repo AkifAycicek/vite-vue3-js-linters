@@ -5,22 +5,12 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 13,
-    sourceType:
-      "module",
+    sourceType: "module",
   },
-  plugins: [
-    "vue",
-    "prettier",
-  ],
-  extends: [
-    "eslint:recommended",
-    "plugin:vue/vue3-recommended",
-    "prettier",
-  ],
+  plugins: ["vue", "prettier"],
+  extends: ["eslint:recommended", "plugin:vue/vue3-recommended", "prettier"],
   rules: {
-    "prettier/prettier":
-      "warn",
-    "no-unused-vars":
-      "warn",
+    "prettier/prettier": "warn",
+    "no-unused-vars": "warn",
   },
-}
+};
